@@ -41,7 +41,7 @@ if (x == round(x)):
 
 if (y == round(y)):
     cube = True
-
+a = int(a)
 if cube == True and square == True:
     print(str(a) + " is both a perfect square and perfect cube.")
 elif square == True:
