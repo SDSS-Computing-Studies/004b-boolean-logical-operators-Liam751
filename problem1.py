@@ -19,3 +19,19 @@ Enter a number: 48
 """
 
 #! python3
+
+a = float(input("a number "))
+divide6 = False
+divide8 = False
+
+if (a % 6) == 0:
+    divide6 = True
+
+if (a % 8) == 0:
+    divide8 = True
+
+
+if (divide6 == True) and (divide8 == False):
+    print(str(a) + " is frue")
+else:
+    print(str(a) + " is not frue")
